@@ -19,7 +19,6 @@ internal static class Program
 
         ConfigureMaterialSkin(serviceProvider.GetRequiredService<MaterialSkinManager>());
 
-
         Application.Run(serviceProvider.GetRequiredService<MainForm>());
     }
 
@@ -29,8 +28,6 @@ internal static class Program
                 .AddSingleton<MainForm>()
                 .AddSingleton<EmployeeActionForm>()
                 .AddSingleton<EmployeeServiceRef.EmployeeServiceClient> ();
-        //TODO ADD DB SERVICE;
-
 
         return services.BuildServiceProvider();
     }
