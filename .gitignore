@@ -4,6 +4,7 @@
 # Build results
 [Bb]in/
 [Oo]bj/
+packages/
 
 # User-specific files
 *.user
