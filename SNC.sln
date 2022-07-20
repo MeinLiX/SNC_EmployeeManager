@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32519.111
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNC_Client", "SNC_Client\SNC_Client.csproj", "{52EF19CE-5747-4608-80E3-AD146AA5B348}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52EF19CE-5747-4608-80E3-AD146AA5B348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52EF19CE-5747-4608-80E3-AD146AA5B348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52EF19CE-5747-4608-80E3-AD146AA5B348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52EF19CE-5747-4608-80E3-AD146AA5B348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60493320-6F5A-409F-9A7B-A137D5B68EDE}
+	EndGlobalSection
+EndGlobal
