@@ -11,13 +11,14 @@ internal static class Program
     ///  The main entry point for the application.
     /// </summary>
     [STAThread]
-    static void Main()
+    static async Task Main()
     {
         ApplicationConfiguration.Initialize();
 
         using ServiceProvider serviceProvider = ConfigureServices(new ServiceCollection());
 
         ConfigureMaterialSkin(serviceProvider.GetRequiredService<MaterialSkinManager>());
+
 
         Application.Run(serviceProvider.GetRequiredService<MainForm>());
     }
@@ -26,7 +27,8 @@ internal static class Program
     {
         services.AddSingleton(x => MaterialSkinManager.Instance)
                 .AddSingleton<MainForm>()
-                .AddSingleton<EmployeeActionForm>();
+                .AddSingleton<EmployeeActionForm>()
+                .AddSingleton<EmployeeServiceRef.EmployeeServiceClient> ();
         //TODO ADD DB SERVICE;
 
 
